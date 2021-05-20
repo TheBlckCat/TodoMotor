@@ -1,0 +1,52 @@
+html, body {
+	background: #2A2B2E;
+	margin: 0;
+	height:100%;
+}
+
+.container{
+min-height: 100%;
+margin-bottom: -50px;
+}
+
+.title{
+	margin:auto;
+	text-align:center;
+	font-size: 30px;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.Race{
+	padding: 2px 16px;
+	margin: 4px;
+	background-color: black;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 25px;
+}
+
+.push {
+	height: 50px;
+}
+
+footer{
+padding: 3rem;
+height: 50px;
+background-color: #101114;
+color: white;
+width:100%;
+text-align:center; 
+}
+
+footer a {text-align:center; color: white; text-decoration:none;}
+
+h1, h2 , h3 {
+	color: white;
+}
